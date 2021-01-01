@@ -24,3 +24,6 @@ choice. The helpful url then makes it easy to jump to the data.
 
 Below is a list of maps I have created using output from this script
 * Dec 2020 https://www.google.com/maps/d/u/0/edit?mid=1yIqZFfyOTgg509UNoe03iD_1ht8&usp=sharing
+
+## Disclaimers
+This is not an officially supported Google product.

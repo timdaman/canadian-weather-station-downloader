@@ -11,7 +11,13 @@ stations and produces a CSV file with their details including
 I wrote this utility to produce CSV files for use with Google's "My Maps" 
 feature.
 
-Why would I need a map of weather stations in Canada? 
+## Installation and use
+    git clone https://github.com/timdaman/canadian-weather-station-downloader.git
+    cd canadian-weather-station-downloader
+    pipenv install
+    pipenv run ./download_stations.py
+
+## Why would I need a map of weather stations in Canada? 
 I do lots of wilderness travel. I sometime like to analyze recent weather data
 for locations will travel to in order to pack more efficiently and do better
 route planning. This is especially useful in the winter where I try to
@@ -24,6 +30,11 @@ choice. The helpful url then makes it easy to jump to the data.
 
 Below is a list of maps I have created using output from this script
 * Dec 2020 https://www.google.com/maps/d/u/0/edit?mid=1yIqZFfyOTgg509UNoe03iD_1ht8&usp=sharing
+
+## Known issues
+The code assumes yesterday's data is always available. This is not always true, it takes some time after 
+midnight before data becomes available. If you are inptaient you can configure it to use data from 2 days ago.
+Weather stations seldom change this unlikely to be an issue.
 
 ## Disclaimers
 This is not an officially supported Google product.

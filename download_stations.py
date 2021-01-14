@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 This is a small program that downlands data about all of the currently active
 weather stations in Canada and exports that in CSV format.

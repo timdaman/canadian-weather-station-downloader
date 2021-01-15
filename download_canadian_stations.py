@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""Download data about all active Environment Canada weather stations"""
+__version__ = '1.0'
+
 """
 This is a small program that downlands data about all of the currently active
 weather stations in Canada and exports that in CSV format.

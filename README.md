@@ -11,7 +11,10 @@ I wrote this utility to produce CSV files for use with Google's "My Maps"
 feature.
 
 ## Installation and use
-    # This assumes you have Python and pipenv installed
+    # Using pip
+    pip3 install download-canadian-stations
+    
+    # If you want to pull from git, assuming you you have Python and pipenv installed
     git clone https://github.com/timdaman/canadian-weather-station-downloader.git
     cd canadian-weather-station-downloader
     pipenv install
